@@ -1,0 +1,39 @@
+body {
+  margin: 40px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.slideshow {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slides {
+  width: 800px;
+  height: 800px;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.show {
+  display: block;
+  opacity: 1;
+}
+
+.indicator {
+  display: inline-block;
+  width: 40px;
+  height: 2px;
+  background: #aaaaaa;
+}
